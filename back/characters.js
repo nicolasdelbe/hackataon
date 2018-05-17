@@ -23,7 +23,7 @@ const characters = [
       "Red Squadron",
       "Rogue Squadron",
       "Massassi Group",
-      "Leia Organa's team",
+      "Leia Organa\'s team",
       "Endor strike team",
       "Jedi Order",
       "Bright Tree tribe",
@@ -72,7 +72,7 @@ const characters = [
       "Galactic Empire",
       "Alliance to Restore the Republic",
       "Massassi Group",
-      "Leia Organa's team",
+      "Leia Organa\'s team",
       "Pathfinders",
       "Endor strike team",
       "Bright Tree tribe",
@@ -106,7 +106,7 @@ const characters = [
     "equipment": [
       "Buzz saw",
       "Electric pike",
-      "Drinks tray (Only on Jabba's Sail Barge)",
+      "Drinks tray (Only on Jabba\'s Sail Barge)",
       "Fusion welder",
       "Data probe",
       "Power recharge coupler",
@@ -119,14 +119,14 @@ const characters = [
       "Royal House of Naboo",
       "Galactic Republic",
       "501st Legion",
-      "R2-D2's battle droid squadron",
+      "R2-D2\'s battle droid squadron",
       "D-Squad",
       "House of Organa",
       "Galactic Empire",
       "Alliance to Restore the Republic",
       "Massassi Group",
       "Red Squadron",
-      "Leia Organa's team",
+      "Leia Organa\'s team",
       "Endor strike team",
       "Bright Tree tribe",
       "Resistance"
@@ -199,7 +199,7 @@ const characters = [
       "Imperial Senate",
       "Alliance to Restore the Republic",
       "Massassi Group",
-      "Leia Organa's team",
+      "Leia Organa\'s team",
       "Endor strike team",
       "Alliance High Command",
       "Bright Tree tribe",
@@ -405,7 +405,7 @@ const characters = [
       "Republic Navy",
       "Strategic Advisory Cell",
       "Outland Regions Security Force",
-      "Outland's anti-pirate taskforce",
+      "Outland\'s anti-pirate taskforce",
       "Galactic Empire",
       "Battle Station Command",
       "Imperial Officer Corps",
@@ -433,7 +433,7 @@ const characters = [
     "affiliations": [
       "Galactic Republic",
       "Alliance to Restore the Republic",
-      "Leia Organa's team",
+      "Leia Organa\'s team",
       "Pathfinders",
       "Endor strike team",
       "Bright Tree tribe",
@@ -463,15 +463,15 @@ const characters = [
     "skinColor": "light",
     "affiliations": [
       "Galactic Empire",
-      "Jabba Desilijic Tiure's criminal empire",
+      "Jabba Desilijic Tiure\'s criminal empire",
       "Alliance to Restore the Republic",
-      "Leia Organa's team",
+      "Leia Organa\'s team",
       "Endor strike team",
       "Kingdom of Han",
       "Bright Tree tribe",
       "New Republic",
       "New Republic Pilots Commission",
-      "Han Solo's shipping company",
+      "Han Solo\'s shipping company",
       "Resistance"
     ],
     "formerAffiliations": [
@@ -522,7 +522,7 @@ const characters = [
     "affiliations": [
       "Hutt Clan",
       "Grand Hutt Council",
-      "Jabba Desilijic Tiure's criminal empire",
+      "Jabba Desilijic Tiure\'s criminal empire",
       "Galactic Republic",
       "Shadow Collective",
       "Crymorah syndicate",
@@ -596,7 +596,7 @@ const characters = [
     "born": -896,
     "died": 4,
     "diedLocation": "dagobah",
-    "species": "yoda's species",
+    "species": "yoda\'s species",
     "hairColor": "white",
     "eyeColor": "green-gold",
     "skinColor": "green",
@@ -691,8 +691,8 @@ const characters = [
     "skinColor": "tan",
     "affiliations": [
       "Confederacy of Independent Systems",
-      "Boba Fett's syndicate",
-      "Jabba Desilijic Tiure's criminal empire",
+      "Boba Fett\'s syndicate",
+      "Jabba Desilijic Tiure\'s criminal empire",
       "Galactic Empire"
     ],
     "formerAffiliations": [
@@ -759,9 +759,9 @@ const characters = [
     "skinColor": "green",
     "affiliations": [
       "Bounty Hunters' Guild",
-      "Boba Fett's syndicate",
+      "Boba Fett\'s syndicate",
       "Galactic Empire",
-      "Chelli Aphra's crew"
+      "Chelli Aphra\'s crew"
     ],
     "born": -53,
     "formerAffiliations": [
@@ -874,7 +874,7 @@ const characters = [
       "Delegation of 2,000",
       "Galactic Empire",
       "Imperial Senate",
-      "Mon Mothma's rebel cell",
+      "Mon Mothma\'s rebel cell",
       "Alliance to Restore the Republic",
       "New Republic"
     ],
@@ -1151,7 +1151,7 @@ const characters = [
     "eyeColor": "orange",
     "skinColor": "blue",
     "affiliations": [
-      "Watto's shop",
+      "Watto\'s shop",
       "Mos Espa"
     ],
     "hairColor": "black",
@@ -1248,7 +1248,7 @@ const characters = [
     "affiliations": [
       "Nightbrothers",
       "Sith",
-      "Cad Bane's group",
+      "Cad Bane\'s group",
       "Death Watch",
       "Shadow Collective"
     ],
@@ -1269,12 +1269,12 @@ const characters = [
     "image": "https://vignette.wikia.nocookie.net/starwars/images/3/33/BibFortunaHS-ROTJ.png",
     "died": 4,
     "diedLocation": "tatooine",
-    "species": "twi'lek",
+    "species": "twi\'lek",
     "eyeColor": "pink",
     "skinColor": "light",
     "affiliations": [
       "Fortuna family",
-      "Jabba Desilijic Tiure's criminal empire"
+      "Jabba Desilijic Tiure\'s criminal empire"
     ],
     "formerAffiliations": [
 
@@ -1292,7 +1292,7 @@ const characters = [
     "born": -48,
     "died": -19,
     "diedLocation": "felucia",
-    "species": "twi'lek",
+    "species": "twi\'lek",
     "eyeColor": "hazel",
     "skinColor": "blue",
     "era": "Rise of the Empire era",
@@ -1406,7 +1406,7 @@ const characters = [
       "Jedi Order",
       "Jedi High Council",
       "Jedi assault team",
-      "Mace Windu's squad",
+      "Mace Windu\'s squad",
       "Galactic Republic",
       "Grand Army of the Republic"
     ],
@@ -1461,7 +1461,7 @@ const characters = [
       "Jedi Order",
       "Jedi High Council",
       "Jedi assault team",
-      "Mace Windu's squad",
+      "Mace Windu\'s squad",
       "Galactic Republic"
     ],
     "apprentices": "Nahdar Vebb",
@@ -1692,7 +1692,7 @@ const characters = [
     "eyeColor": "yellow",
     "affiliations": [
       "Stalgasin hive",
-      "Karina the Great's empire",
+      "Karina the Great\'s empire",
       "Techno Union",
       "Confederacy of Independent Systems",
       "Separatist Council",
@@ -1848,7 +1848,7 @@ const characters = [
       "Intelligence Oversight Committee",
       "Military Oversight Committee",
       "Alderaanian Resistance",
-      "Kota's Militia",
+      "Kota\'s Militia",
       "Alliance to Restore the Republic"
     ],
     "formerAffiliations": [
@@ -1916,7 +1916,7 @@ const characters = [
     "eyeColor": "yellow",
     "skinColor": "tan-brown",
     "affiliations": [
-      "Dex's Diner"
+      "Dex\'s Diner"
     ],
     "formerAffiliations": [
 
@@ -2176,7 +2176,7 @@ const characters = [
     "homeworld": "utapau",
     "wiki": "http://starwars.wikia.com/wiki/Tion_Medon",
     "image": "https://vignette.wikia.nocookie.net/starwars/images/4/43/Tion_Medon.jpg",
-    "species": "pau'an",
+    "species": "pau\'an",
     "eyeColor": "black",
     "skinColor": "gray (with red markings)",
     "affiliations": [
@@ -2313,3 +2313,5 @@ const characters = [
     ]
   }
 ]
+
+module.exports = characters

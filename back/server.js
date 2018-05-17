@@ -8,8 +8,8 @@ const characters = require('./characters')
 const filldb = require('./filldb')
 
 const app = express()
-const port = process.env.PORT || 2222;
-const dbPromise = sqlite.open('./database.sqlite', { Promise });
+const port = process.env.PORT || 2222
+const dbPromise = sqlite.open('./database.sqlite', { Promise })
 
 app.use(express.static('public'))
 app.use(methodOverride('__method'))
@@ -29,7 +29,7 @@ const html = `
     <div class='container-fluid'>
       <div class='row justify-content-center'>
         <div class='col-12'>
-          <img id='mainImage' src='https://media.giphy.com/media/oeGgcmHVHLVCg/giphy.gif' />
+          <img style='width:50%' id='mainImage' src='https://media.giphy.com/media/oeGgcmHVHLVCg/giphy.gif' />
         </div>
       </div>
     </div>
