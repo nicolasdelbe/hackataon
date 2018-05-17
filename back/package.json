@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/MaxenceDelaine/StarBallz#readme",
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.16.3",
     "method-override": "^2.3.10",
     "nodemon": "^1.17.4",
