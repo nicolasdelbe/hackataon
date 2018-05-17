@@ -49,6 +49,18 @@ const getCharactersFromDb = () => {
   return db.then(_db => _db.all(allCharactersSQLStatement))
 }
 
+// Read all account and return it
+const getAccountFromDb = () => {
+  const allAccountSQLStatement = 'SELECT * FROM account'
+  return db.then(_db => _db.all(allAccountSQLStatement))
+}
+
+// Read setavatar table and return it
+const getAvatarFromDb = () => {
+  const allAvatarSQLStatement = 'SELECT * FROM setavatar'
+  return db.then(_db => _db.all(allAvatarSQLStatement))
+}
+
 // Insert data about profile in table ACCOUNT
 const insertProfileInDb = (pseudo, password) => {
   const insertProfileSQLStatement = `INSERT INTO account (pseudo, password) VALUES (${req.body.pseudo}, ${req.body.password})`
@@ -66,11 +78,20 @@ app.get('/characters', (req, res) => {
   getCharactersFromDb().then(function (value) { res.send(value).end() })
 })
 
+// New GET /account route
+app.get('/account', (req, res) => {
+  getAccountFromDb().then(function (value) { res.send(value).end() })
+})
+
 // New POST /account route
 app.post('/account', (req, res) => {
   insertProfileInDb().then(function (value) { res.send(value).end() })
 })
 
+// New GET /avatar route
+app.get('/avatar', (req, res) => {
+  getAvatarFromDb().then(function (value) { res.send(value).end() })
+})
 module.exports = app
 
 app.listen(2222)
