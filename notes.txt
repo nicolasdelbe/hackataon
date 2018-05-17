@@ -45,4 +45,25 @@ API StarWars (akabab):
   ]
 }
 
+*************************************
+*******************************
+**********************
+*********
 Clés utiles de l'API pour le projet:
+"id"
+"name"
+"height"
+"mass"
+"gender"
+"homeworld"
+"image"
+"born"
+"species"
+"hairColor"
+"eyeColor"
+"skinColor"
+"affiliations"
+*********
+**********************
+*******************************
+*************************************
