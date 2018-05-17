@@ -1,0 +1,35 @@
+***AFFICHAGE DU PROFIL***
+
+"image"
+"name"
+"species"
+"height"
+"mass"
+"born"
+"affiliations"
+
+
+***INFOS DEMANDEES DANS LE PROFIL D'INSCRIPTION***
+
+"name"
+"height"
+"mass"
+"gender"
+"homeworld"
+"image"
+"born"
+"species"
+"hairColor"
+"eyeColor"
+"skinColor"
+"affiliations"
+
+***FILTRES POSSIBLES DANS LA RECHERCHE DE PROFIL***
+
+"gender"
+"homeworld"
+"species"
+"hairColor"
+"eyeColor"
+"skinColor"
+"affiliations"
