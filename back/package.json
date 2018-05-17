@@ -1,0 +1,32 @@
+{
+  "name": "starballz",
+  "version": "1.0.0",
+  "description": "Starballz Project - Hackhathon #2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxenceDelaine/StarBallz.git"
+  },
+  "keywords": [
+    "node.js",
+    "react",
+    "api",
+    "hackhathon"
+  ],
+  "author": "Gregoire/Lucas/Maxence/Nicolas/Stephane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxenceDelaine/StarBallz/issues"
+  },
+  "homepage": "https://github.com/MaxenceDelaine/StarBallz#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "method-override": "^2.3.10",
+    "nodemon": "^1.17.4",
+    "sqlite": "^2.9.2"
+  }
+}
