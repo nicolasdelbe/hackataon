@@ -79,19 +79,30 @@ p{
       rgba(255, 255, 255, 0.9)
     ),
     /* bottom, image */
-    url(https://images.wallpaperscraft.com/image/star_wars_battlefront_electronic_arts_105865_3840x2160.jpg);
+    url(https://images3.alphacoders.com/669/thumb-1920-669177.jpg);
     padding-bottom: 70PX;
 }
 .paged2{
   background:
     /* top, transparent red, faked with gradient */
     linear-gradient(
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
     ),
     /* bottom, image */
     url(https://images.wallpaperscraft.com/image/star_wars_battlefront_electronic_arts_105865_3840x2160.jpg);
     padding-bottom: 230PX;
+}
+.paged3{
+  background:
+    /* top, transparent red, faked with gradient */
+    linear-gradient(
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    /* bottom, image */
+    url(https://images3.alphacoders.com/569/thumb-1920-569454.png);
+
 }
 
 label{
@@ -103,4 +114,12 @@ margin-top : 10%;
 }
 .R2D2{
   margin-top: 8%;
+}
+.sabre{
+  margin-top: 10%;
+  width: 100px;
+}
+
+.livechat{
+  width: 100%;
 }

@@ -30,6 +30,9 @@ class Panel extends React.Component {
       <p><img src={'https://cdn.icon-icons.com/icons2/318/PNG/512/Lightsaber-Red-icon_34497.png'} alt="" className="sabre"/>
       <img src={'https://cdn.icon-icons.com/icons2/318/PNG/512/Lightsaber-Green-icon_34496.png'} alt="" className="sabre"/></p>
       </div>
+      <div className="col-md-4">
+      <img src={'http://www.communicor.ca/images/Chatenligne.png'} alt="" className="livechat"/>
+      </div>
       </div>
       </div>
       </div>

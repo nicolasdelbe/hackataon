@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Field, Label, Control, Input, Button, Notification } from 'bloomer'
 import { Redirect } from 'react-router'
-import axios from 'axios/index';
+import axios from 'axios';
 
 class Addcontact extends Component {
   constructor(props) {
@@ -35,7 +35,7 @@ class Addcontact extends Component {
       })
       return
     }
-    axios.post('https://localhost:2222/account', {
+    axios.post('http://localhost:2222/account', {
       pseudo: this.state.Pseudo,
       password: this.state.mdp
     })
@@ -77,7 +77,7 @@ class Addcontact extends Component {
                 </Notification>
           }
           <div className="paged2">
-          <div classname="container">
+          <div className="container">
           <div className="row">
           <div className="col-md-4">
           <Field>
